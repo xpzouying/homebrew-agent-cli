@@ -1,19 +1,19 @@
 class TwitterCli < Formula
   desc "Browser-driven Twitter automation CLI (requires kimi-webbridge)"
   homepage "https://www.kimi.com/zh-cn/features/webbridge"
-  version "0.1.0"
+  version "0.1.1"
 
   on_macos do
     on_arm do
       url "https://github.com/xpzouying/homebrew-agent-cli/releases/download/twitter-cli-v#{version}/twitter-cli-v#{version}-darwin-arm64.tar.gz"
-      sha256 "37a47e40cccfbb230df08d6adec5aec8434c7841b05cea0eacdbb317905614fd"
+      sha256 "6829f36ea40045f1b15c17fb6b6ebc6ac2c26bb04987a6ef98bee4bb689a2ae7"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/xpzouying/homebrew-agent-cli/releases/download/twitter-cli-v#{version}/twitter-cli-v#{version}-linux-amd64.tar.gz"
-      sha256 "2d62ce8d20571ab560d8eb85ed629af0a5338bfefe797ad28fd9094762235ab8"
+      sha256 "54c2ea5140ced34dfee31341a13629205ac9d389956bafee3be43e058f4284d6"
     end
   end
 

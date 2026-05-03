@@ -1,19 +1,19 @@
 class XiaohongshuCli < Formula
   desc "Browser-driven Xiaohongshu automation CLI (requires kimi-webbridge)"
   homepage "https://www.kimi.com/zh-cn/features/webbridge"
-  version "0.1.0"
+  version "0.1.1"
 
   on_macos do
     on_arm do
       url "https://github.com/xpzouying/homebrew-agent-cli/releases/download/xiaohongshu-cli-v#{version}/xiaohongshu-cli-v#{version}-darwin-arm64.tar.gz"
-      sha256 "facc4608fff781cad98d8dc1192de32b4750aee440fc1138e693b7037346d9a7"
+      sha256 "9866b64680ddfc0f93cbf206a424a0befdb45d4a64e700d63e4567ce1a045aab"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/xpzouying/homebrew-agent-cli/releases/download/xiaohongshu-cli-v#{version}/xiaohongshu-cli-v#{version}-linux-amd64.tar.gz"
-      sha256 "d8670f49e67caa2f44639685d4881514d94a4e084ca72823c4d928758de91aa7"
+      sha256 "80ba87f51997913e3cf7e5fe10f8814b1f6232f46444873b7219ca4304f5af1b"
     end
   end
 
